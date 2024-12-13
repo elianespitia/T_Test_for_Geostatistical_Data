@@ -1,1 +1,11 @@
-Hola
+
+# Para subir algún cambio
+git add .
+git commit -m "Comentario"
+git push
+
+
+# Para ver los cambios
+git status
+git log
+git log --graph
