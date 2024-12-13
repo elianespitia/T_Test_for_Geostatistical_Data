@@ -1,0 +1,2 @@
+alpha,n,mu,variog_model,tau2,sigma2,phi,grid_type,min_x_grid,max_x_grid,min_y_grid,max_y_grid,min_delta,max_delta,n_points_delta,n_bootstrap,delta_range,potencia
+0.05,100,0,exponencial,0,1,30,random,"(0,)","(100,)","(0,)","(100,)",0,0,1,1000,[0.],[0.351]

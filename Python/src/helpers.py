@@ -1,7 +1,7 @@
 import yaml
 import time
 import pyfiglet
-
+import sys
 
 def load_config(ruta_archivo):
     """Lee un archivo YAML y devuelve su contenido."""
@@ -48,3 +48,15 @@ def imprimir_mensaje(mensaje: str):
     # Usamos pyfiglet para generar el arte ASCII del mensaje
     arte = pyfiglet.figlet_format(mensaje)
     print(arte)
+
+def print_difuso(mensaje: str):
+    # Imprimir el mensaje
+    sys.stdout.write(mensaje)
+    sys.stdout.flush()
+    
+    # Esperar una milésima de segundo (0.001 segundos)
+    time.sleep(0.00001)
+    
+    # Sobrescribir el mensaje con espacios para borrarlo
+    sys.stdout.write(" " * len(mensaje) + "\r")
+    sys.stdout.flush()
