@@ -1,2 +1,7 @@
 # History files
 .Rhistory
+
+# Ambiente Virtual de Python
+venv/
+.venv/
+
