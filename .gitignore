@@ -1,7 +1,28 @@
-# History files
+# RStudio files
+.Rproj.user/
 .Rhistory
+.Rapp.history
+.Renviron
+.RData
+.RDataTmp
+*.rds
+*.RData
+
 
 # Para Python
 venv/
 .venv/
 
+# Folders
+R/Referencias/
+R/Simulaciones/
+
+# Other files
+*.xls
+*.xlsx
+*.csv
+*.pdf
+*.docx
+*.pnj
+*.jpg
+*.jpeg
